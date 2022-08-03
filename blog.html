@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <!-- google fonts links------------------ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- fontawsome style file------------------ -->
+    <link rel="stylesheet" href="style/all.css">
+    <!-- main css style file------------------- -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <!-- start blog-home section------------------- -->
+    <section class=" blog-home about-home home">
+        <header>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <div class="header-links" id="headerlinks">
+                <i class="fas fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="course.html">course</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showmenu()"></i>
+        </header>
+        <h1>our certificate & online programs for 2022</h1>
+    </section>
+    <!-- end blog-home section-------------------------------->
+    <!-- start blog content section ----------------------- -->
+    <section class="blog-content">
+        <div class="container">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="/images/certificate.jpg" alt="certificate">
+                    <h2>our certificate & online programs for 2022</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus quaerat quo tempora expedita! Recusandae laborum placeat reprehenderit reiciendis, vero sunt, dignissimos nihil, quisquam quaerat cum repudiandae deserunt soluta nesciunt cumque.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, culpa officia corporis suscipit repudiandae cum minima? Molestiae corrupti nobis, ex numquam et cum vero consequuntur expedita voluptas aliquam. Dicta, tenetur?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione harum, nulla consectetur odio corrupti natus doloremque expedita repellendus. Totam culpa dolorem, tempore dolores id rerum accusamus quae officia provident obcaecati?</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error impedit hic ut ipsa beatae temporibus vitae commodi voluptate eveniet excepturi, ab nostrum nisi in animi totam, aspernatur officia et dolor.</p>
+                    <div class="comment-box">
+                        <h3>leave a comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea style="resize:none ;" rows="5" placeholder="Your Comment"></textarea>
+                            <button type="submit" class="hero-btn about-btn">post comment</button>
+                        </form>
+                    </div> <!-- /coment-box -->
+                </div> <!-- /blog-left -->
+                <div class="blog-right">
+                    <h3>post catagories</h3>
+                    <div>
+                        <span>business analytics</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>date science</span>
+                        <span>28</span>
+                    </div>
+                    <div>
+                        <span>machine learing</span>
+                        <span>15</span>
+                    </div>
+                    <div>
+                        <span>computer science</span>
+                        <span>34</span>
+                    </div>
+                    <div>
+                        <span>autocad</span>
+                        <span>42</span>
+                    </div>
+                    <div>
+                        <span>journalism</span>
+                        <span>22</span>
+                    </div>
+                    <div>
+                        <span>commerco</span>
+                        <span>30</span>
+                    </div>
+                </div> <!-- /blog-right -->
+            </div> <!-- /row -->
+        </div> <!-- container -->
+    </section>
+    <!-- end blog content section  ------------------------->
+
+    <!-- start footer ------------------------------------->
+    <footer>
+        <h4>about us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque tenetur nam, maxime qui architecto, <br> nihil excepturi soluta minima voluptatibus non sequi deserunt? </p>
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+        <p>made with <i class="far fa-heart"></i> by <span>mohamed elkhoriby</span></p>
+    </footer>
+    <!-- end footer ------------------------------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- java script for toggle mune -->
+    <script>
+        var headerlinks = document.getElementById("headerlinks");
+        function showmenu() {
+            headerlinks.style.right = "0";
+        }
+        function hidemenu() {
+            headerlinks.style.right = "-250px";
+        } 
+    </script>
+</body>
+</html>
